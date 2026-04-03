@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7fbff;
+    background-color: #edc3ef;
     color: #222;
     margin: 0;
     padding: 40px;
@@ -18,6 +18,11 @@ h2 {
     font-size: 24px;
     margin-top: 30px;
     margin-bottom: 15px;
+}
+
+h3 {
+    color: #4276e7;
+    font-size: 14px;
 }
 
 ul {
@@ -41,4 +46,41 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.gumb_k {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.gumb_p_s {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.naziv_stranice {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.kontakt_upis input {
+    display: block;
+    width: 350px;
+    padding: 12px;
+    margin-top: 12px;
+    border: 1px solid #7c89fa;
+    border-radius: 12px;
+    font-size: 15px;
+}
+
+.gumb_p {
+    width: 150px;
+    font-size: 20px;
+    padding: 12px;
+    margin-top: 12px;
+    border: 1px solid #7c89fa;
+    border-radius: 12px;
 }
